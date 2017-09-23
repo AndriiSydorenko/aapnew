@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;valo&quot;}">
+  <meta name="vaadin-version" content="8.0.5">
+ </head>
+ <body>
+  <vaadin-vertical-layout size-full>
+   <vaadin-text-field _id="atricleName" :middle :center></vaadin-text-field>
+   <vaadin-combo-box empty-selection-allowed="false" height="70%" data-item-type="java.lang.String" _id="artcileCategoryCombobox">
+    <option item="Option1">Option 1</option>
+    <option item="Option2">Option 2</option>
+    <option item="Option3">Option 3</option>
+   </vaadin-combo-box>
+   <vaadin-text-field width="90%" height="150%" _id="textField" :middle :center></vaadin-text-field>
+   <vaadin-horizontal-layout width="484px" height="51px" :bottom :center>
+    <vaadin-button plain-text _id="backButton" :bottom>
+      Back 
+    </vaadin-button>
+    <vaadin-button plain-text _id="saveButton" :bottom :right>
+      Save 
+    </vaadin-button>
+   </vaadin-horizontal-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>

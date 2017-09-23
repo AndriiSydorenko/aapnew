@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;valo&quot;}">
+  <meta name="vaadin-version" content="8.0.5">
+ </head>
+ <body>
+  <vaadin-vertical-layout size-full>
+   <vaadin-horizontal-layout width-full height="30px">
+    <vaadin-label width="30%" plain-text _id="nameLabel" :middle :center>
+      Name 
+    </vaadin-label>
+    <vaadin-text-field height="80%" _id="nameField" :middle></vaadin-text-field>
+   </vaadin-horizontal-layout>
+   <vaadin-horizontal-layout width-full height="30px">
+    <vaadin-label width="30%" plain-text :middle :center>
+      Login 
+    </vaadin-label>
+    <vaadin-text-field height="80%" _id="loginField" :middle></vaadin-text-field>
+   </vaadin-horizontal-layout>
+   <vaadin-horizontal-layout width-full height="30px">
+    <vaadin-label width="30%" plain-text :middle :center>
+      Password 
+    </vaadin-label>
+    <vaadin-password-field height="80%" _id="passwordField" :middle></vaadin-password-field>
+   </vaadin-horizontal-layout>
+   <vaadin-horizontal-layout width-full height="30px">
+    <vaadin-label width="30%" plain-text :middle :center>
+      Repeat password 
+    </vaadin-label>
+    <vaadin-password-field height="80%" _id="repeatPasswordField"></vaadin-password-field>
+   </vaadin-horizontal-layout>
+   <vaadin-horizontal-layout width-full>
+    <vaadin-button plain-text _id="backbutton">
+      Back 
+    </vaadin-button>
+    <vaadin-button plain-text _id="signUpbutton" :middle :right>
+      Sign up 
+    </vaadin-button>
+   </vaadin-horizontal-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>
